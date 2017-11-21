@@ -82,6 +82,25 @@
 						<ActiveSource Name="amb_IslandOutdoors" ID="{BAA42018-CBEB-42DC-9DD6-AD605BFA5E08}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="O2-alarm-beep" ID="{A64D6DF9-DF89-4B44-9074-4FFD85915816}" ShortID="495159002">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6C149EBC-CF16-43B0-B29A-7787571280A6}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7EC529FC-3B9C-4178-8A83-2553B886F979}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="O2-alarm-beep" ID="{15BE930A-DDC8-4044-A287-EB55F0F083F6}" ShortID="481169706">
+							<Language>SFX</Language>
+							<AudioFile>O2-alarm-beep.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="O2-alarm-beep" ID="{15BE930A-DDC8-4044-A287-EB55F0F083F6}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

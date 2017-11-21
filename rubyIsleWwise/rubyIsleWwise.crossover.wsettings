@@ -3,7 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{10B635B9-FEFC-4890-B37A-17BD1607F825}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="Z:\Volumes\blackb0x\MUS390-RubyIsle-Wwise\ruby_isle_WwiseProject\ruby-isle-Wwise\Originals\SFX"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\Downloads\SmugglersDilemma-UA-Teacher\Assets\Audio Assets\01_SoundEffects"/>
 				<Property Name="Event Action List\{923E1EA6-9390-42CD-88D2-40CA12EE12B7}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{FE4151A2-574F-43B3-80C7-31827DF7C715}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
