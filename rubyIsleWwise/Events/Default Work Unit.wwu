@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{55B30BB7-31A4-4B55-B7C7-424DEBF1470E}" SchemaVersion="80">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{55B30BB7-31A4-4B55-B7C7-424DEBF1470E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="OneShot" ID="{923E1EA6-9390-42CD-88D2-40CA12EE12B7}">
+					<ChildrenList>
+						<Action Name="" ID="{C6A35D5D-B4B7-48EE-A20A-5F0091861714}" ShortID="125634880">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="oneShot" ID="{2097A115-38A9-412C-9775-C567D95D114F}" WorkUnitID="{D1534ED8-BC57-411F-8B8F-D83C503FED38}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ambience2D" ID="{FE4151A2-574F-43B3-80C7-31827DF7C715}">
+					<ChildrenList>
+						<Action Name="" ID="{1C428061-429B-46F7-907F-6BFFB0DE9CEA}" ShortID="429706194">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="amb_IslandOutdoors" ID="{56D1DA20-AD15-4DD4-9B26-EA1BE3D86F74}" WorkUnitID="{D1534ED8-BC57-411F-8B8F-D83C503FED38}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
